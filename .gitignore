@@ -3,7 +3,5 @@
 *.[oa]
 .idea/*
 .idea/
-conf/archer.conf
 settings.py
-archer.conf
-
+data/*

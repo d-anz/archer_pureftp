@@ -197,3 +197,14 @@ LOGGING = {
         }
     }
 }
+
+# for encrypt
+APP_INPUT_CHARSET = 'utf-8'
+APP_SIGN_TYPE = 'MD5'
+
+# for passport
+APP_ID = 1
+APP_KEY = "cPk7BePf7d9sTme37spOFGFzqnxAIOUQ"
+PASSPORT_LOGIN = "http://127.0.0.1:8000/users/login/"
+PASSPORT_LOGOUT = "http://127.0.0.1:8000/users/logout/"
+PASSPORT_USER = "http://127.0.0.1:8000/users/api/get_user_info/"

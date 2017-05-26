@@ -11,7 +11,7 @@ class Server(models.Model):
     server_name = models.CharField(max_length=50)
     server_ip = models.CharField(max_length=18)
     server_create_time = models.DateTimeField(auto_now=True, null=True, blank=True)
-    server_description = models.CharField(max_length=255)
+    server_description = models.CharField(max_length=255, null=True, blank=True, default='')
 
     def __str__(self):
         return self.server_id
